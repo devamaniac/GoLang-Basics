@@ -12,3 +12,9 @@ Is it missing something?
 
 Try and catch
 Lexer does a lot of work
+
+-------------------------------------
+
+Always use a variable if you declare it
+Walrus operator  :=
+Walrus operator can be used only in a method
