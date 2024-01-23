@@ -20,4 +20,8 @@ func main() {
 
 	input, _ := reader.ReadString('\n')
 	fmt.Println("Thanks for rating,", input)
+
+	input2, _ := reader.ReadString('\n')
+	fmt.Println("The output of 2nd is:", input2)
+	fmt.Printf("The type of variable is:", input2)
 }
