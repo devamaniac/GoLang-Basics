@@ -37,4 +37,12 @@ func main() {
 	fmt.Println("the Highscore in sorted form are:", highscore)
 	fmt.Println(sort.IntsAreSorted(highscore))
 
+	//removing a value from slice based on index
+
+	var subjects = []string{"maths", "science", "english", "hindi", "french"}
+	fmt.Println(subjects)
+	var index int = 2
+	subjects = append(subjects[:index], subjects[index+1:]...)
+	fmt.Println("slice after removing english:", subjects)
+
 }
